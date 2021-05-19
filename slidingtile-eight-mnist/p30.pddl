@@ -17,7 +17,7 @@
    (inc x1 x2) (inc x2 x3) (dec x3 x2) (dec x2 x1)
    (inc y1 y2) (inc y2 y3) (dec y3 y2) (dec y2 y1)
    (blank x2 y3) (at t1 x2 y1) (at t2 x3 y1) (at t3 x1 y1)
-   (at t4 x2 y3) (at t5 x3 y3) (at t6 x1 y2) (at t7 x1 y3)
+   (at t4 x3 y2) (at t5 x3 y3) (at t6 x1 y2) (at t7 x1 y3)
    (at t8 x2 y2))
   (:goal
    (and (at t1 x2 y1) (at t2 x3 y1) (at t3 x1 y2)
